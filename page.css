@@ -1,0 +1,507 @@
+body{
+    background-color: rgba(0, 240, 255, 1);
+    padding: 5px ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 1300px;
+}
+
+@font-face {
+    font-family: Títulos;
+    src: url(Fonte/WalterTurncoat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Textos;
+    src: url(Fonte/TiroDevanagariSanskrit-Regular.ttf);
+}
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Títulos;   
+    font-size: 40px;
+    text-align: center;
+        
+}
+.li{
+    font-family: Títulos;
+    font-size: 25px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.img_head{
+    max-width: 200px;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    font-family: Títulos;  
+    
+
+}
+
+.ti_sobre{
+    font-family: Títulos;  
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Textos;
+}
+
+.img_sobre{
+    max-width: 300px;
+}
+
+.sec_merry{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Textos;  
+    }
+
+    .barcos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .merry{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imagem_merry{
+        border-radius: 40px;
+        max-width: 200px;
+
+    }
+    .barcus{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sunny{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imagem_sunny{
+        border-radius: 40px;
+        max-width: 200px;
+
+    }
+
+    .luffy{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        
+            }
+
+    .luffy_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        font-family: Textos;
+                    }
+
+    .luffy_nome{
+        font-family: Títulos;  
+    }
+        
+    .imagem_luffy{
+        max-width: 100px;
+    }
+
+    .zoro{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .zoro_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_zoro{
+        max-width: 100px;
+    }
+
+    .nami{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .nami_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_nami{
+        max-width: 100px;
+    }
+
+    .usopp{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .usopp_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_usopp{
+        max-width: 100px;
+    }
+
+    .sanji{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .sanji_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_sanji{
+        max-width: 100px;
+    }
+
+    .chopper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .chopper_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_chopper{
+        max-width: 100px;
+    }
+
+    .robin{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .robin_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_robin{
+        max-width: 100px;
+    }
+
+    .franky{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .franky_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_franky{
+        max-width: 100px;
+    }
+
+    .brook{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .brook_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_brook{
+        max-width: 100px;
+    }
+
+    .jinbe{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+            }
+
+    .jinbe_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .imagem_jinbe{
+        max-width: 100px;
+    }
+
+    .Textos{
+        font-family: Textos;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Títulos{
+        font-family: Títulos;
+        font-size:30px;
+        text-align: center;
+        }
+
+    .Barcos{
+        font-family: Títulos;
+        font-size:xx-large;
+        display: inline;
+        width: 100%;
+        float: left;
+            }
+
+    .Títulos1{
+        font-family: Títulos;
+        font-size:30px;
+        text-align: left;
+            }
+
+            @media screen and (max-width: 1600px){
+                body {
+                    max-width: 1600px;
+                            }
+                        }
+                        
+        
+            @media screen and (max-width: 1200px){
+                body{
+                    max-width: 1000px;
+                }
+                main{
+                    max-width: 900px;
+                    margin: 200px;
+                }
+                        }
+        
+            @media screen and (max-width: 1000px){
+                body{
+                    max-width: 900px;
+                }
+                main, section{
+                    max-width: 500px;
+                    margin: 200px;
+                }
+        
+                        }
+        
+            @media screen and (max-width: 700px){
+                header{
+                    max-width: 300px;
+                    margin: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .cabecalho{
+                    font-size: medium;
+                }
+                .img_head{
+                    max-width: 200px;
+                }
+                
+                body{
+                    max-width: 500px;
+                }
+                main, section{
+                    max-width: 300px;
+                    margin: 100px;
+                }
+                .barcos, .barcus{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .li{
+                    margin-top: 120px;
+                }
+
+                
+            }
+            @media screen and (max-width: 550px){
+                header{
+                    max-width: 300px;
+                    margin: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .cabecalho{
+                    font-size: medium;
+                }
+                .img_head{
+                    max-width: 150px;
+                }
+                
+                body{
+                    max-width: 500px;
+                }
+                main, section{
+                    max-width: 300px;
+                    margin: 100px;
+                }
+                .barcos, .barcus{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .li{
+                    margin-top: 120px;
+                }
+                section{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            @media screen and (max-width: 400px){
+                header{
+                    max-width: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 50px;
+                }
+                .cabecalho{
+                    max-width: 100px;
+                    display: flex;
+                    
+                }
+                .img_head{
+                    max-width: 100px;
+                    
+                }
+                .li{
+                   max-width: 75px;
+                   font-size: 20px;
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                   margin-left: 150px;
+                }
+                .luffy, .zoro, .nami, .brook, .sanji, .franky, .robin, .chopper, .usopp, .jinbe,  section{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            @media screen and (max-width: 360px){
+                header{
+                    max-width: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 20px;
+                }
+                .cabecalho{
+                    max-width: 60px;
+                    display: flex;
+                    
+                }
+                .img_head{
+                    max-width: 80px;
+                    
+                }
+                .li{
+                   max-width: 75px;
+                   font-size: 20px;
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                   margin-left: 180px;
+                }
+                .luffy, .zoro, .nami, .brook, .sanji, .franky, .robin, .chopper, .usopp, .jinbe,  section{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            @media screen and (max-width: 300px){
+                header{
+                    max-width: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 0px;
+                }
+                .cabecalho{
+                    max-width: 100px;
+                    display: flex;
+                    
+                }
+                .img_head{
+                    max-width: 75px;
+                    
+                }
+                .li{
+                   max-width: 75px;
+                   font-size: 20px;
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                   margin-left: 150px;
+                }
+                .luffy, .zoro, .nami, .brook, .sanji, .franky, .robin, .chopper, .usopp, .jinbe,  section{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+        
+                        }
